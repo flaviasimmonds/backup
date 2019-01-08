@@ -5,4 +5,4 @@ select  r.owner,  r.table_name,  r.constraint_name
    and  r.r_constraint_name = o.constraint_name
    and  o.constraint_type in ('P', 'U')
    and  r.constraint_type = 'R'
-   AND r.constraint_name  LIKE 'PREAA_%'
+   AND r.constraint_name  LIKE 'PREAA_%';
