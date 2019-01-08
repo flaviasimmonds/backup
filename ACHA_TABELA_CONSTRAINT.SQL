@@ -1,3 +1,4 @@
+--> Query que busca tabela a partir de um nome de constraint
 select  r.owner,  r.table_name,  r.constraint_name 
   from  user_constraints r,  user_constraints o 
  where  r.r_owner = o.owner
